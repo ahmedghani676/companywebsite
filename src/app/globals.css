@@ -2,26 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Raleway', sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@layer base {
+    body {
+        @apply bg-black text-[#bfc2c8] tracking-wide
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-bold
+    }
+
+    h1 {
+        @apply text-4xl sm:text-5xl md:text-6xl font-[Raleway]
+    }
+
+    h2 {
+        @apply text-3xl sm:text-4xl
+    }
+
+    li {
+        @apply cursor-pointer
+    }
+
+    button {
+        @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white
+    }
+    .slide{
+        margin: 0 10px;
+    }
+    .slick-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.slick-slide > div {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
 }
