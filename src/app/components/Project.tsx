@@ -30,7 +30,7 @@ const Project = () => {
           </button>
         </div>
         
-        <div className="grid md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {projectsToDisplay.map((project, index) => (
             <ProjectItem
               key={index}
