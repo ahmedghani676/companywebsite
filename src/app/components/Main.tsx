@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram } from 'react-icons/fa';
 import Image from 'next/image';
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn , FaPinterest } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 import { TypeAnimation } from 'react-type-animation';
@@ -48,7 +48,7 @@ const Main  = () => {
             <p className='text-white text-lg mb-4'>Your trusted partner for innovative solutions and engineering excellence.</p>
             <div className='flex items-center justify-center gap-6'>
              <a
-                href='https://www.linkedin.com/in/nexus-system-461674320/'
+                href='https://www.linkedin.com/in/nexus-system-448a13321/'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='rounded-full bg-white p-4 cursor-pointer hover:bg-gray-200 transition-colors duration-300'
@@ -66,6 +66,11 @@ const Main  = () => {
               <Link href='https://www.facebook.com/profile.php?id=61567123534919'>
                 <div className='rounded-full bg-white p-4 cursor-pointer hover:bg-gray-200 transition-colors duration-300'>
                   <FaFacebook className='text-blue-600' />
+                </div>
+              </Link>
+              <Link href='https://www.pinterest.com/nexussystem83/'>
+                <div className='rounded-full bg-white p-4 cursor-pointer hover:bg-gray-200 transition-colors duration-300'>
+                  <FaPinterest className='text-blue-600' />
                 </div>
               </Link>
               <Link href='https://www.instagram.com/nexussystem83?igsh=cGJ1OHJhcDljZGl0'>

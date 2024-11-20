@@ -9,8 +9,8 @@ const Project = () => {
   const projectsToDisplay = selectedCategory === 'frontend' ? frontendProjects : CMSProjects;
 
   return (
-    <div id='projects' className='w-full py-20' style={{ minHeight: '60vh' }}>
-      <div className='max-w-[1240px] mx-auto px-2 py-20'>
+    <div id='projects' className='w-full py-3' style={{ minHeight: '60vh' }}>
+      <div className='max-w-[1240px] mx-auto px-2 py-10'>
         <h1 className='text-3xl lg:text-4xl tracking-widest uppercase text-[#5651e5]'>
           Projects
         </h1>

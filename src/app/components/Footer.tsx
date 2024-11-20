@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
         <div className='flex space-x-4 pt-4'>
                 <a
-                  href='https://www.linkedin.com/company/your-company' // Replace with your LinkedIn URL
+                  href='https://www.linkedin.com/in/nexus-system-448a13321/' // Replace with your LinkedIn URL
                   target='_blank'
                   rel='noopener'
                 >

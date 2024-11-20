@@ -37,7 +37,7 @@ const Services: React.FC<ServicesProps> = ({ servicesList }) => {
                 className='object-contain h-full' // Ensures the image fits the height and maintains aspect ratio
               />
             </div>
-            <h3 className='text-lg font-semibold text-center'>{item.name}</h3>
+            <h3 className='text-lg font-bold text-black text-center'>{item.name}</h3>
           </div>
         ))}
       </div>

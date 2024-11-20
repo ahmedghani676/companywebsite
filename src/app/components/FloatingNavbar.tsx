@@ -4,7 +4,7 @@ import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn , FaPinterest } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaFacebook, FaInstagram } from 'react-icons/fa';
 
@@ -124,7 +124,7 @@ const FloatingNav: React.FC<FloatingNavProps> = ({ navItems }) => {
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <a
-                  href='https://www.linkedin.com/in/nexus-system-461674320/'
+                  href='https://www.linkedin.com/in/nexus-system-448a13321/'
                   target='_blank'
                   rel='noopener'
                 >
@@ -141,6 +141,11 @@ const FloatingNav: React.FC<FloatingNavProps> = ({ navItems }) => {
                     <AiOutlineMail />
                   </div>
                 </Link>
+                 <Link href='https://www.pinterest.com/nexussystem83/'>
+                <div className='rounded-full bg-white p-4 cursor-pointer hover:bg-gray-200 transition-colors duration-300'>
+                  <FaPinterest className='text-blue-600' />
+                </div>
+              </Link>
                  <Link href='https://www.facebook.com/profile.php?id=61567123534919'>
                 <div className='rounded-full shadow-lg bg-white p-4 cursor-pointer hover:bg-gray-200 transition-colors duration-300'>
                   <FaFacebook className='text-blue-600' />
