@@ -129,7 +129,7 @@ const FloatingNav: React.FC<FloatingNavProps> = ({ navItems }) => {
                   rel='noopener'
                 >
                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    <FaLinkedinIn />
+                    <FaLinkedinIn className='text-blue-600' />
                   </div>
                 </a>
               
@@ -138,7 +138,7 @@ const FloatingNav: React.FC<FloatingNavProps> = ({ navItems }) => {
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
                   >
-                    <AiOutlineMail />
+                    <AiOutlineMail className='text-red-600' />
                   </div>
                 </Link>
                  <Link href='https://www.pinterest.com/nexussystem83/'>

@@ -32,7 +32,7 @@ const Skills: React.FC<ImageProps> = ({ imageList }) => {
                 <Image src={item.link} width={64} height={64} alt={item.name} />
               </div>
               <div className='text-center'>
-                <h3 className='text-sm sm:text-base'>{item.name}</h3>
+                <h3 className='text-sm sm:text-base text-black'>{item.name}</h3>
               </div>
             </div>
           ))}
